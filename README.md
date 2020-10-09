@@ -40,14 +40,20 @@ This device is under test and not guaranteed to operate within electrical specif
 
 ✔️ Working Temperature: TBD
 
-![](./images/3d-viewer-front.png)
+![](./images/3d-viewer-front.png?raw=true)
 
-![](./images/3d-viewer-back.png)
+![](./images/3d-viewer-back.png?raw=true)
 
 ## Guides
 - [Motor Selection](#motor-selection-guide)
 - [Device Operation](#device-operation-guide)
 - [Ordering PCB](#jlcpcb-order-guide)
+
+## Motor Selection Guide
+Coming soon...
+
+## Device Operation Guide
+Coming soon...
 
 ## Ordering Guide
 This order guide covers the following:
@@ -60,13 +66,13 @@ This order guide covers the following:
  - Go to [JLCPCB.com](https://jlcpcb.com/)
  - Select "Quote Now" on the right-hand of JLCPCB.
 
-![](./images/jlcpcb-quote-now.png)
+![](./images/jlcpcb-quote-now.PNG?raw=true)
 
 - Select "Add your gerber file" on JLCPCB.
 - Locate the "gerber" directory within this repository on your computer.
 - Select and upload "gerber.zip".
 
-![](./images/jlcpcb-upload-gerber.png)
+![](./images/jlcpcb-upload-gerber.PNG?raw=true)
 
 ### Step 2: Confirm PCB Specifications
 - Confirm the following optional PCB specifications:
@@ -74,7 +80,7 @@ This order guide covers the following:
     - Surface Finish (Lead-Free is extra money, but I chose this option.)
 - Leave remaining options default unless you have a reason to change.
 
-![](./images/jlcpcb-spec-no-lead.png)
+![](./images/jlcpcb-spec-no-lead.PNG?raw=true)
 
 ### Step 3: Optional SMT Assembly
 - Toggle "SMT Assembly" option.
@@ -83,9 +89,7 @@ This order guide covers the following:
 - Leave Tooling holes as: "Added by JLCPCB".
 - Click "Confirm".
 
-![](./images/jlcpcb-top-assembly.png)
-
-
+![](./images/jlcpcb-top-assembly.PNG?raw=true)
 
 - ### Upload BOM and CPL
     - Click "Add BOM File".
@@ -95,16 +99,16 @@ This order guide covers the following:
     - Go to the "assembly" directory within the repository location on your computer.
     - Select "raspi-quad-stepper-motor-module_cpl_jlc.csv"
 
-![](./images/jlcpcb-upload-bom-cpl.png)
+![](./images/jlcpcb-upload-bom-cpl.PNG?raw=true)
 
 ### Step 4: Review Charge Details
 - If you chose "SMT assembly" you will see the SMT devices that will be populated on the boards.
 
-![](./images/jlcpcb-quote.png)
+![](./images/jlcpcb-quote.PNG?raw=true)
 
 - Notice that the through-hole components will still need to be ordered and soldered by hand.
 
-![](./images/jlcpcb-unselected-parts.png)
+![](./images/jlcpcb-unselected-parts.PNG?raw=true)
 
 ### Step 5: Purchase Remaining Components on LCSC
 
@@ -117,7 +121,7 @@ This order guide covers the following:
 
 NOTE: If you did not choose SMT assembly on JLCPCB, you will have to order all the components, not just the through-hole parts, by uploading the "raspi-quad-stepper-motor-module_bom_jlc.csv" instead of "raspi-quad-stepper-motor-module_bom_through_hole_lcsc.xlsx".
 
-![](./images/lcsc-bom-tool-upload.png)
+![](./images/lcsc-bom-tool-upload.PNG?raw=true)
 
 ### Select BOM Column Types
 - Locate the "LCSC Part Number" column.
@@ -126,7 +130,7 @@ NOTE: If you did not choose SMT assembly on JLCPCB, you will have to order all t
 - Select "Quantity" from the above drop-down box.
 - Leave remaining columns as "select type".
 
-![](./images/lcsc-select-type.png)
+![](./images/lcsc-select-type.PNG?raw=true)
 
 ### Step 6: Confirm Purchases
 - Confirm your JLCPCB order.
