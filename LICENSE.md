@@ -1,12 +1,10 @@
-Copyright (c) 2020 Aaron Jense 
+Copyright © 2020 Aaron Jense under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+This repository, "raspberrypi-stepper-motor-pcb", includes Open Source Hardware "DESGIN FILES AND GUIDES".
 
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+THE "DESIGN FILES AND GUIDES" ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE "DESIGN FILES AND GUIDES" OR THE USE OR OTHER DEALINGS IN THE "DESIGN FILES AND GUIDES"
 
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
