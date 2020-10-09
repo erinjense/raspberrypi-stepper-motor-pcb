@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name raspi-quad-stepper-motor-module)(type Legacy)(uri ${KIPRJMOD}/lib/raspi-quad-stepper-motor-module.lib)(options "")(descr ""))
+)
